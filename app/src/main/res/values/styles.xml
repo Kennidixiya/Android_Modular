@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--字体-->
+    <style name="FontWhite18">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="FontWhite16">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="FontTheme16">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="FontTheme14">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+
+    <style name="FontBlack14">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="FontBlack16">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="FontGray12">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="FontGray14">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="FontCircleOp16">
+        <item name="android:textColor">@color/color_676767</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+
+    <!--popwindow样式-->
+    <style name="operationPopAnimal" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_in</item>
+        <item name="android:windowExitAnimation">@anim/push_out</item>
+    </style>
+
+
+</resources>

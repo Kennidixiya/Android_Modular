@@ -1,0 +1,8 @@
+//def testExtProperties() {
+//    gradle.ext.str = "settings文件打印出来的"
+//
+//    println gradle.str
+//}
+//
+//testExtProperties()
+include ':app', ':baselib', ':subapp1', ':subapp2'

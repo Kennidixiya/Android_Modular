@@ -1,12 +1,12 @@
-package debug;
+package com.wuhk.library;
 
 import android.app.Application;
 
 /**
- * Created by wuhk on 2017/7/17.
+ * Created by wuhk on 2017/7/25.
  */
 
-public class SubApp1 extends Application {
+public class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

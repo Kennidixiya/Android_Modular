@@ -1,19 +1,16 @@
-package com.wuhk.training.activity;
+package com.wuhk.library;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-
-import com.wuhk.library.BaseActivity;
-import com.wuhk.training.R;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by wuhk on 2017/7/17.
  */
 
-public class MainActivity extends BaseActivity {
+public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
     }
 }

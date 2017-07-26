@@ -32,5 +32,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'com.github.mzule.activityrouter:activityrouter:1.2.2'
-    annotationProcessor 'com.github.mzule.activityrouter:compiler:1.1.7'
 }

@@ -1,4 +1,4 @@
-if (subapp2Debug.toBoolean()){
+if (indexDebug.toBoolean()){
     apply plugin: 'com.android.application'
 }else{
     apply plugin: 'com.android.library'
@@ -23,10 +23,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
     sourceSets{
         main{
-            if (subapp2Debug.toBoolean()){
+            if (indexDebug.toBoolean()){
                 manifest.srcFile 'src/main/debug/AndroidManifest.xml'
             }else{
                 manifest.srcFile 'src/main/release/AndroidManifest.xml'

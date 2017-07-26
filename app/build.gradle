@@ -24,6 +24,9 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.3.1'
+
+    annotationProcessor 'com.github.mzule.activityrouter:compiler:1.1.7'
+
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -31,8 +34,15 @@ dependencies {
     if (appDebug.toBoolean()){
         compile project(':baselib')
     }else{
-        compile project(':subapp1')
-        compile project(':subapp2')
+        if (!indexDebug.toBoolean()){
+            compile project(':index')
+        }
+        if (!subapp1Debug.toBoolean()){
+            compile project(':subapp1')
+        }
+        if (!subapp2Debug.toBoolean()){
+            compile project(':subapp2')
+        }
     }
 }
 repositories {

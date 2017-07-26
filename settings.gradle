@@ -5,4 +5,4 @@
 //}
 //
 //testExtProperties()
-include ':app', ':baselib', ':subapp1', ':subapp2'
+include ':app', ':baselib', ':subapp1', ':subapp2', ':index'
